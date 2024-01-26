@@ -1,0 +1,57 @@
+body{
+    background-color: #071f3a;
+}
+#calc-container{
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+#button-container{
+    width: 100%;
+    display: flex;
+    height: 70vh;
+    gap: 2px;
+    justify-content: center;
+}
+#display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom:2px;
+}
+input{
+    font-size: 62px;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+    height: 12vh;
+    padding: 4px;
+    padding: 0;
+    margin: 0;
+}
+#number-btns{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+button{
+    font-size: 48px;
+    font-weight: bold;
+    border-radius: 0%;
+    border-color: aliceblue;
+}
+#number-btns button{
+    flex: auto;
+    width: 33.3%;
+}
+#operation-btns{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+#operation-btns button{
+    flex: auto;
+    width: 45%;
+}
